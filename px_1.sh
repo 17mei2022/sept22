@@ -13,7 +13,7 @@ cd
 cat > graftcp/local/graftcp-local.conf <<END
 listen = :2233
 loglevel = 1
-socks5 = 209.127.183.130:8228
+socks5 = 89.22.106.31:11735
 socks5_username = lebarankita
 socks5_password = buatTHRan
 END
